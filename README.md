@@ -1,6 +1,6 @@
 Este projeto foi iniciado com o aplicativo [Create React App](https://github.com/facebook/create-react-app).
 
-#Chat de Atendimento
+# Chat de Atendimento
 Aplicação que exibirá um formulário para atendimento via e-mail e um chat de atendimento.
 Aplicação desenvolvida com React e Sass. 
 Para o layout foi utilizado AntDesign.
