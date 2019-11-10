@@ -1,0 +1,193 @@
+$fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$colorTitle: #fb689e;
+$colorBorder: lavender;
+$colorLabel: #716d6d;
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    .borderTop {
+        border-bottom: 1px solid $colorBorder;
+    
+        #containerTop{
+            margin-left: 60px;
+            margin-bottom: 10px;
+        }
+    
+        .top {
+            font-size: 40px;
+        
+            #topTitle{
+                display: inline-block;
+                padding-left: 50px;
+                padding-top: 6px;
+            
+                #title {
+                    font-family: $fonts;
+                    color: $colorTitle;
+                } 
+            }
+        }
+    }
+    
+    .contentForm {
+        margin-left: 60px;
+        margin-top: 10px;
+
+        label {
+            color: $colorLabel;
+        }
+
+        #infoForm {
+            font-size: 18px;
+            font-family: $fonts;
+        }
+
+        .form {
+            margin-top: 10px;
+
+            .validateMessage {
+                width: 83%;
+
+                .ant-alert-message {
+                    color: rgba(72, 70, 70, 0.85);
+                    margin-left: 22%;
+                }
+            }
+
+            .itemName, .itemCpf{
+                margin-right: 20px;
+            }
+
+            .itemName, .itemMail, .itemCpf, .itemTel {
+                width: 40%;
+                display: inline-block;
+            }
+
+            .ant-upload-list-item-info {
+                width: 50%;
+            }
+
+            .ant-upload-list-item-card-actions {
+                display: inline-block;
+                width: 60%;
+            }
+
+            .itemMensagem {
+                width: 83%;
+                margin-bottom: 0;
+            }
+
+            .itemAnexo {
+                width: 83%;
+
+                .btnAnexo {
+                    width: 8%;
+                    height: 32px !important;
+                }
+            }
+
+            .btnSubmit {
+                width: 83%;
+                display: inline-block;
+                text-align: right;
+                margin-bottom: 0;
+                margin-top: -27px;
+
+                .ant-col-offset-6 {
+                    margin-left: 50%;
+                }
+            }
+
+            .divRequired {
+                width: 40%;
+
+                #msgRequired {
+                    display: inline-block;
+                    color: red;
+                }
+            }
+        }
+        
+        .logo {
+            width: 84%;
+            text-align: right;
+            margin-top: -13px;
+
+            #imgLogo {
+                width: 86px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 800px){
+    .container {
+        margin-left: 4%;
+        margin-right: 4%;
+
+        #containerTop {
+            margin-left: 16px !important;
+
+            .top {
+                font-size: 20px;
+
+                #topTitle {
+                    padding-left: 30px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .contentForm {
+            margin-left: 16px;
+
+            #infoForm {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .validateMessage {
+                width: 92% !important;
+                margin-bottom: 10px !important;
+
+                .ant-alert-message {
+                    margin-left: 0 !important;
+                }
+            }
+
+            .itemName, .itemMail, .itemCpf, .itemTel {
+                margin-bottom: 4px;
+                width: 43% !important;
+            }
+
+            .itemAnexo, .itemMensagem{
+                width: 92% !important;
+                margin-bottom: 4px;
+            }
+
+            .divRequired {
+                width: 80% !important;
+            }
+
+            .btnSubmit {
+                display: inherit !important;
+                width: 62% !important;
+                margin-top: 0 !important;
+            }
+
+            .logo {
+                width: 95%;
+            }
+        }
+    }
+
+    .chat {
+        margin-top: 16px;
+        margin-right: 12px !important;
+        margin-bottom: 30px !important;
+    }
+
+}

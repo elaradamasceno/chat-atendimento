@@ -1,0 +1,17 @@
+$colorLabel: #716d6d;
+
+.formChat {
+    .ant-form-item {
+        margin-bottom: 0px;
+        
+        label {
+            color: $colorLabel;
+        }
+    }
+
+    .btnSubmitChat {
+        .ant-col-offset-5 {
+            margin-left: 0px;
+        }
+    }
+}

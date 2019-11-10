@@ -1,0 +1,11 @@
+.formChat .ant-form-item {
+  margin-bottom: 0px;
+}
+.formChat .ant-form-item label {
+  color: #716d6d;
+}
+.formChat .btnSubmitChat .ant-col-offset-5 {
+  margin-left: 0px;
+}
+
+/*# sourceMappingURL=chat.css.map */

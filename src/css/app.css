@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+.App {
+  margin-bottom: 10px;
+}
+.App .chat {
+  text-align: right;
+  margin-right: 38px;
+  margin-bottom: 30px;
+}
+.App .chat .btnChat {
+  font-size: 24px;
+  background: #f54083;
+  border-color: #f54083;
+}
+
+/*# sourceMappingURL=app.css.map */
